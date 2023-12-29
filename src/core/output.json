@@ -1,0 +1,19 @@
+[
+  {
+    "date": "2022-12-31",
+    "likeReceived": 4,
+    "post": 2,
+    "userId": 1
+  },
+  {
+    "date": "2023-01-01",
+    "post": 2,
+    "userId": 1
+  },
+  {
+    "comment": 2,
+    "date": "2023-01-01",
+    "post": 2,
+    "userId": 2
+  }
+]
