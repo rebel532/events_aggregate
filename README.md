@@ -9,7 +9,7 @@
 2. **Clone this repository:**
 
    ```bash
-   git clone https://github.com/rebel532/events_aggregate.git
+   git clone <https://github.com/rebel532/events_aggregate.git>
 
    testcase1 : go run aggregate_events.go -i <input_file_path> -o <output_file_path>
    exampple :  go run aggregate_events.go -i ~/Desktop/events_aggregate/src/core/input.json -o ~/Desktop/events_aggregate/src/core/output.json
@@ -61,5 +61,5 @@
         }
     ]
 
-5. Observation : second time counts increases for each user Ids
+5. Observation : second json counts increases for each user Ids
 
