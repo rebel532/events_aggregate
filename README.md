@@ -1,21 +1,25 @@
-# Event Aggregate
-## Instructions
+# Events Aggregate
 
-1. Install Go on your system.
+## STEPS
 
-2. Clone this repository.
+1. **Install Go on your system:**
 
-3. in cmd folder run :
-    for Testcase 1 :  % go run aggregate_events.go -i <path of input json> -o <path of output json>
-    for Testcase 2 :  % go run aggregate_events.go -i <path of input json> -o <path of output json>  --update
-   
-    Example : 
-    Test case 1 : rahul@FIN-IT-LT-524-MAC cmd % go run main.go -i ~/Desktop/events_aggregate/src/core/input.json -o ~/Desktop/events_aggregate/src/core/output.json
-    Test case 2 : rahul@FIN-IT-LT-524-MAC cmd % go run main.go -i ~/Desktop/events_aggregate/src/core/input.json -o ~/Desktop/events_aggregate/src/core/output.json --update
+   Follow the official [Go installation instructions](https://golang.org/doc/install) to install Go on your machine.
 
-4. For test case 1: run just run first command
-    output.json will look like : 
-    [
+2. **Clone this repository:**
+
+   ```bash
+   git clone <https://github.com/rebel532/events_aggregate.git>
+
+   testcase1 : go run aggregate_events.go -i <input_file_path> -o <output_file_path>
+   exampple :  go run aggregate_events.go -i ~/Desktop/events_aggregate/src/core/input.json -o ~/Desktop/events_aggregate/src/core/output.json
+
+   testcase2 : go run aggregate_events.go -i <input_file_path> -o <output_file_path> --update
+   example: go run aggregate_events.go -i ~/Desktop/events_aggregate/src/core/input.json -o ~/Desktop/events_aggregate/src/core/output.json --update
+
+3. output testcse : 1
+   ```json
+   [
         {
             "date": "2022-12-31",
             "likeReceived": 2,
@@ -34,8 +38,9 @@
             "userId": 2
         }
     ]
-5. For test case 2: run the send command
-   output.json will look like : 
+
+4. output testcase : 2
+    ```json
     [
         {
             "date": "2022-12-31",
@@ -56,5 +61,5 @@
         }
     ]
 
-6. Observation : 
-   second time counts increases for  each user Ids
+5. Observation : second time counts increases for each user Ids
+
